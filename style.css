@@ -1,0 +1,60 @@
+body{
+    background-color: #2F0B5F;
+    background-image: url('img/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 800px;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-image: url('img/rectangle.png');
+    box-shadow: 2px 1px 1px 1px black;
+    
+}
+
+.group-logo{
+    position: absolute;
+    margin-left: 2rem;
+    width: 75px;
+}
+
+.home-button{
+    font-size: 25px;
+    margin-left: 6rem;
+
+}
+
+.gallery,.aboutus,.contactus{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 25px 25px 25px 25px;
+    color: #F9F6EE;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    max-width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: black;
+}
+
+::-webkit-scrollbar-track{
+    background: #F9F6EE;
+}
+
