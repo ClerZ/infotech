@@ -3,21 +3,25 @@ body{
     background-image: url('img/home.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 800px;
+    min-width: 300px;
     margin: 0 auto;
     height: 2000px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.nav-bar{
-    position: relative;
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
     background-image: url('img/rectangle.png');
     box-shadow: 2px 1px 1px 1px black;
-    
+    z-index: 1000;
 }
+
 
 .group-logo{
     position: absolute;
