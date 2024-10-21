@@ -24,26 +24,25 @@ body{
 
 
 .group-logo{
-    position:relative;
-    margin-left: 6vw;
-    width: 5vw;
+    position: absolute;
+    margin-left: 5rem;
+    width: 75px;
 }
 
 .home-button{
-    position: absolute;
-    font-size: 1.6vw;
-    margin-left: 10vw;
+    font-size: 25px;
+    margin-left: 9rem;
 
 }
 
 .gallery,.aboutus,.contactus{
-    font-size: 1.25vw;
+    font-size: 20px;
 }
 
 .right{
     display: flex;
-    gap: 4vw;
-    margin-right: 10vw;
+    gap: 4rem;
+    margin-right: 10rem;
 }
 
 a{
@@ -67,4 +66,28 @@ a{
 ::-webkit-scrollbar-track{
     background: #F9F6EE;
 }
+
+
+@media (max-width: 1000px) {
+    .right {
+        display: none;
+    }
+
+    .nav-bar {
+        justify-content: center;
+    }
+
+    .group-logo {
+        position: relative;
+        margin-left: 0;
+        width: 75px;
+    }
+    
+    .home-button {
+        font-size: 25px;
+        margin-left: 1rem;
+    }
+}
+
+
 
